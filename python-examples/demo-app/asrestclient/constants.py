@@ -1,0 +1,16 @@
+'''
+Simple file containing Aerospike Rest Client constants
+'''
+
+INTEGER_KEYTYPE = 'INTEGER'
+BYTES_KEYTYPE = 'BYTES'
+DIGEST_KEYTYPE = 'DIGEST'
+
+CREATE_ONLY = 'CREATE_ONLY'
+UPDATE_ONLY = 'UPDATE_ONLY'
+
+OPERATION_NAME = 'operation'
+OPERATION_VALUES = 'opValues'
+
+LIST_APPEND_OP = 'LIST_APPEND'
+READ_OP = 'READ'
