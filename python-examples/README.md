@@ -1,6 +1,6 @@
 # Python Examples
 
-These examples utilize the Requests library to 
+These examples utilize the Requests library to communicate with the Aerospike REST Client.
 
 ## Prerequisites
 
