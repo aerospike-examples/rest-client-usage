@@ -78,6 +78,8 @@ requests.post(record_uri, json=base_record)
 # We can specify the operations. As an array of JSON objects.
 # These operations change the user's name to 'Bob Roberts', update the length
 # Of the name accordingly, and indicate that he works for Aerospike.
+# For a list of operations, and example usage see https://github.com/aerospike/aerospike-client-rest/blob/master/docs/operate.md
+
 operations = [
     {
         'operation': 'APPEND',
@@ -114,4 +116,3 @@ print("*** The Record after applying operations ***")
 
 print(response.json())
 
-# For a list of operations, and example usage see <Operate.md> link
