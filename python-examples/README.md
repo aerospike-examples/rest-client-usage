@@ -5,7 +5,7 @@ These examples utilize the Requests library to communicate with the Aerospike RE
 ## Prerequisites
 
 * Install the Aerospike Rest Client
-* Install requests: `pip install requests`
+* Install dependencies: `pip install -r requirements.txt`
 
 ## The Examples
 
